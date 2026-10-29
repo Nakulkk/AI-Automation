@@ -1,0 +1,15 @@
+2026-10-28 11:32:10 INFO  [IVRService]     Call received, callId=C-30451, language=EN
+2026-10-28 11:32:11 INFO  [AuthService]    Caller verified via OTP, customerId=C-7788
+2026-10-28 11:32:11 INFO  [IVRService]     Menu option selected: 3 (Forex Card Services)
+2026-10-28 11:32:12 WARN  [CacheService]   Cache miss for key=customer_C-7788, loading from DB
+2026-10-28 11:32:12 INFO  [ForexService]   Fetching forex card details for customerId=C-7788
+2026-10-28 11:32:13 INFO  [ForexService]   Card found, cardId=FX-2210, status=ACTIVE, issuedOn=2026-10-27
+2026-10-28 11:32:13 WARN  [ConfigLoader]   Property 'ivr.prompt.version' not set, using default v1
+2026-10-28 11:32:13 INFO  [ForexService]   Loading currency wallets for cardId=FX-2210
+2026-10-28 11:32:14 ERROR [ForexService]   NullPointerException at ForexService.getBalance(ForexService.java:142), currency is null for walletId=W-5531
+2026-10-28 11:32:14 ERROR [IVRService]     Unhandled exception in menu option 3, returning to main menu
+2026-10-28 11:32:14 INFO  [IVRService]     Played prompt: main menu
+2026-10-28 11:32:19 WARN  [IVRService]     No input received for 5000ms, replaying menu
+2026-10-28 11:32:24 INFO  [IVRService]     Menu option selected: 3 (Forex Card Services)
+2026-10-28 11:32:25 ERROR [ForexService]   NullPointerException at ForexService.getBalance(ForexService.java:142), currency is null for walletId=W-5531
+2026-10-28 11:32:25 INFO  [AuditService]   Call transferred to agent queue, reason=repeated_failure

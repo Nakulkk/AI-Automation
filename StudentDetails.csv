@@ -1,0 +1,14 @@
+student_id,name,attendance_percentage,ut1_marks,ut2_marks
+1,Aarav Sharma,88.5,18,19
+2,Diya Patel,92.0,20,21
+3,Rohan Verma,76.5,14,
+4,Ananya Iyer,95.0,,23
+5,Kabir Gupta,82.0,16,17
+6,Sneha Nair,,22,20
+7,Vikram Singh,65.0,10,12
+8,Priya Deshmukh,89.0,19,22
+9,Arjun Joshi,94.5,23,24
+10,Meera Kulkarni,85.0,17,18
+11,Karan Malhotra,105.5,21,22
+5,Neha Gupta,110.0,15,16
+12,,102.5,18,19

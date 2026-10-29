@@ -1,0 +1,15 @@
+2026-10-28 09:14:02 INFO  [AuthService]     User login request received, userId=U1042
+2026-10-28 09:14:02 INFO  [AuthService]     Password validated for userId=U1042
+2026-10-28 09:14:03 INFO  [SessionManager]  Session created, sessionId=S-88213
+2026-10-28 09:14:03 WARN  [CacheService]    Cache miss for key=profile_U1042, loading from DB
+2026-10-28 09:14:04 INFO  [AccountService] Fetching balance for accountId=A-5567
+2026-10-28 09:14:04 WARN  [ConfigLoader]    Property 'ui.theme.legacy' is deprecated, using default
+2026-10-28 09:14:05 INFO  [TransferService] Transfer initiated: from=A-5567 to=A-9031 amount=25000.00
+2026-10-28 09:14:05 INFO  [TransferService] Debit successful for accountId=A-5567
+2026-10-28 09:14:08 ERROR [PaymentGateway]  Connection timed out after 3000ms, host=pay-gw.internal:8443
+2026-10-28 09:14:08 ERROR [TransferService] Credit failed for accountId=A-9031, reason=gateway_unavailable
+2026-10-28 09:14:08 WARN  [TransferService] Rollback not triggered, transfer status left as PENDING
+2026-10-28 09:14:09 INFO  [NotificationSvc] SMS sent to userId=U1042: "Transfer is being processed"
+2026-10-28 09:14:10 WARN  [CacheService]    Cache miss for key=limits_U1042, loading from DB
+2026-10-28 09:14:11 INFO  [SessionManager]  Heartbeat OK, sessionId=S-88213
+2026-10-28 09:14:15 INFO  [AuthService]     Token refresh successful for userId=U1042
